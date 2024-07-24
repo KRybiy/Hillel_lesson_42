@@ -5,6 +5,7 @@ body {
   background-color: #f0f0f0;
 }
 
+
 header {
   background-color: #333;
   color: #fff;
@@ -57,3 +58,131 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.articles-container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  margin-bottom: 60px;
+}
+
+.articles-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  background: linear-gradient(to right, #333, #555);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.articles-list {
+  margin-top: 20px;
+}
+
+.articles-list h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.articles-list h2:hover {
+  transform: scale(1.05);
+}
+
+.articles-list a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.articles-list a:hover {
+  color: #555;
+}
+
+/* SortBlock */
+.sort-block {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort-block h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 10px;
+  font-size: 1.8em;
+  color: #333;
+  background: linear-gradient(to right, #333, #555);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sort-block select {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  vertical-align: middle;
+}
+
+.sort-block select:hover {
+  background-color: #555;
+}
+
+/* SingleArticle */
+.single-article-container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.single-article-container h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.single-article-container h3 {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.single-article-container p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.single-article-container .all-articles-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.single-article-container .all-articles-link a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.single-article-container .all-articles-link a:hover {
+  color: #555;
+}
+
