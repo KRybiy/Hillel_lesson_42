@@ -5,6 +5,7 @@ const SortBlock = () => {
 
   const handleSortChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const sortKey = event.target.value;
+    console.log('Selected Sort Key:', sortKey); // Debugging log
     navigate(`${sortKey ? '?sort=' + sortKey : ''}`);
   };
 

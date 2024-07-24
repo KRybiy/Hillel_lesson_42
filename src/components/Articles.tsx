@@ -15,6 +15,9 @@ const Articles = () => {
   const { sortKey, sortQuery } = useSortField();
   const navigate = useNavigate();
 
+
+  console.log('SortKey:', sortKey); // Debugging log
+
   useEffect(() => {
     const fetchDataAndHandleLoading = async () => {
       try {
